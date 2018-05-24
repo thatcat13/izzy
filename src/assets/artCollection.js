@@ -3,6 +3,6 @@ const artCollection = {
     title: 'crow skull',
     image: 'crowSkull.jpg',
   }
-};
+}
 
-export default artCollection;
+export default artCollection
