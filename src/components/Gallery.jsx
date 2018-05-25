@@ -54,7 +54,9 @@ export default function Gallery(){
   const mainDivStyle = {
     display: 'flex',
     justifyContent: 'space-around',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    marginLeft: '10',
+    marginRight: '10'
   }
 
 

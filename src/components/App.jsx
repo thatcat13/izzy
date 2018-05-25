@@ -13,6 +13,8 @@ export default function App(){
           body {
             font-family: 'Amatic SC', cursive;
             width: 100%;
+            height: 100%;
+            background-color: #fafaf9;
           }
           `}</style>
       <Header />
