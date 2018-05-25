@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Gallery from './Gallery'
+import Footer from './Footer'
 
 export default function App(){
   return (
@@ -16,6 +17,7 @@ export default function App(){
           `}</style>
       <Header />
       <Gallery />
+      <Footer />
     </div>
   )
 }

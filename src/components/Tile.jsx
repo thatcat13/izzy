@@ -5,12 +5,13 @@ import PropTypes from 'prop-types'
 export default function Tile(props){
 
   const mainDivStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center'
+    display: 'inline-block',
+    flexGrow: '1',
+    width: 'calc(100% * (1/3) - 10px - 1px)',
+    textAlign: 'center'
   }
   const imageStyles = {
-    width: '90%'
+    width: '95%',
   }
 
   return (

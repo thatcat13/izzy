@@ -1,19 +1,51 @@
 import React from 'react'
 import Tile from './Tile'
-import crowSkull from './../crowSkull.jpg'
+import crow from './../crowSkull3.jpg'
+import couch from './../couch.png'
+import crane from './../crane2.png'
+import duckie from './../duckie2.png'
+import fishies from './../fishies.png'
+import goddess from './../goddess.png'
+import green from './../green.png'
+import loveIsLove from './../loveIsLove.png'
+import tea from './../tea.png'
 
 const artCollection = [
   {
-    title: 'crow skull',
-    image: crowSkull
+    title: 'crane',
+    image: crane
   },
   {
-    title: 'crow skull2',
-    image: crowSkull
+    title: 'crow',
+    image: crow
   },
   {
-    title: 'crow skull3',
-    image: crowSkull
+    title: 'duckie',
+    image: duckie
+  },
+  {
+    title: 'couch',
+    image: couch
+  },
+  {
+    title: 'love is love',
+    image: loveIsLove
+  },
+  {
+    title: 'tea',
+    image: tea
+  },
+  {
+    title: 'fishies',
+    image: fishies
+  },
+  {
+    title: 'goddess',
+    image: goddess
+  },
+  {
+    title: 'green',
+    image: green
   },
 ]
 
@@ -21,7 +53,8 @@ export default function Gallery(){
 
   const mainDivStyle = {
     display: 'flex',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    flexWrap: 'wrap'
   }
 
 
