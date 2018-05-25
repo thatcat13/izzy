@@ -1,7 +1,14 @@
 import React from 'react'
 
 export default function Footer(){
+
+  const mainDivStyle = {
+    textAlign: 'center'
+  }
+
   return (
-    <h1>footer content will go here</h1>
+    <div style={mainDivStyle}>
+      <h2>footer content will go here</h2>
+    </div>
   )
 }

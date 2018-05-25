@@ -17,7 +17,7 @@ export default function Tile(props){
 
   return (
     <div style={mainDivStyle} >
-      <img style={imageStyles} src={props.image}/>
+      <img id='test' style={imageStyles} src={props.image}/>
     </div>
   )
 }

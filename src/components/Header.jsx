@@ -1,5 +1,6 @@
 import React from 'react'
 import izzy from './../izzyEdit.jpg'
+import './../assets/Header.css'
 
 export default function Header(){
 
@@ -16,7 +17,8 @@ export default function Header(){
   }
   const linkStyle = {
     display: 'flex',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    marginBottom: '20'
   }
   return (
     <div style={mainDivStyle}>

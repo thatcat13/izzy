@@ -11,10 +11,11 @@ export default function App(){
             box-sizing: border-box;
           }
           body {
-            font-family: 'Amatic SC', cursive;
+            font-family: 'Alegreya Sans SC';
             width: 100%;
             height: 100%;
             background-color: #fafaf9;
+            color: #2b233e;
           }
           `}</style>
       <Header />

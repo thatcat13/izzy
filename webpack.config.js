@@ -86,7 +86,10 @@ module.exports = {
       new GoogleFontsPlugin({
         fonts: [
           { family: 'Amatic SC', variants: ['400', '700'] },
-          { family: 'Waiting for the Sunrise' }
+          { family: 'Waiting for the Sunrise' },
+          { family: 'Alegreya Sans', variants: ['100'] },
+          { family: 'Alegreya Sans SC', variants: ['100'] },
+
         ]
       })
     ]

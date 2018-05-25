@@ -9,6 +9,35 @@ import goddess from './../goddess.png'
 import green from './../green.png'
 import loveIsLove from './../loveIsLove.png'
 import tea from './../tea.png'
+import './../assets/Gallery.css'
+
+// import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
+//
+// export class Example extends Component {
+//   openPopupbox() {
+//     const content = <img url="static/demo.jpg" />
+//     PopupboxManager.open({
+//       content,
+//       config: {
+//         titleBar: {
+//           enable: true,
+//           text: 'Meow!'
+//         },
+//         fadeIn: true,
+//         fadeInSpeed: 500
+//       }
+//     })
+//   }
+//
+//   render() {
+//     return (
+//       <div>
+//         <button onClick={this.openPopupbox}>Click me</button>
+//         <PopupboxContainer />
+//       </div>
+//     )
+//   }
+// }
 
 const artCollection = [
   {
