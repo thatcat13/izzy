@@ -1,5 +1,5 @@
 import React from 'react'
-import izzy from './../izzyEdit.jpg'
+import izzy from './../assets/images/izzyBW.jpg'
 import './../assets/Header.css'
 
 export default function Header(){
@@ -13,6 +13,7 @@ export default function Header(){
     marginTop: '10'
   }
   const imgDivStyle = {
+    marginTop: '10',
     textAlign: 'center'
   }
   const linkStyle = {
@@ -26,7 +27,8 @@ export default function Header(){
         <img style={imgStyle} src={izzy} />
       </div>
       <div style={linkStyle}>
-        <h2>portfolio</h2>
+        <h2 id='test'>portfolio</h2>
+        <h2>shop</h2>
         <h2>about</h2>
         <h2>contact</h2>
       </div>

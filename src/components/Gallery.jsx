@@ -1,14 +1,14 @@
 import React from 'react'
 import Tile from './Tile'
-import crow from './../crowSkull3.jpg'
-import couch from './../couch.png'
-import crane from './../crane2.png'
-import duckie from './../duckie2.png'
-import fishies from './../fishies.png'
-import goddess from './../goddess.png'
-import green from './../green.png'
-import loveIsLove from './../loveIsLove.png'
-import tea from './../tea.png'
+import crow from './../assets/images/crowSkull3.jpg'
+import couch from './../assets/images/couch.png'
+import crane from './../assets/images/crane2.png'
+import duckie from './../assets/images/duckie2.png'
+import fishies from './../assets/images/fishies.png'
+import goddess from './../assets/images/goddess.png'
+import green from './../assets/images/green.png'
+import loveIsLove from './../assets/images/loveIsLove.png'
+import tea from './../assets/images/tea.png'
 import './../assets/Gallery.css'
 
 // import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
@@ -90,9 +90,9 @@ export default function Gallery(){
 
 
   return (
-    <div style={mainDivStyle}>
+    <div id='gallery-div' style={mainDivStyle}>
       {artCollection.map((tile, index) =>
-        <Tile title={tile.title}
+        <Tile id='tile' title={tile.title}
           image={tile.image}
           key={index} />
       )}

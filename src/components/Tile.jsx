@@ -1,11 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './../assets/Tile.css'
 
-// #efbffb = color for hover
+
+// hover color: #b388a5
 export default function Tile(props){
 
   const mainDivStyle = {
-    display: 'inline-block',
+    // display: 'inline-block',
     flexGrow: '1',
     width: 'calc(100% * (1/3))',
     textAlign: 'center'
@@ -16,8 +18,11 @@ export default function Tile(props){
   }
 
   return (
-    <div style={mainDivStyle} >
-      <img id='test' style={imageStyles} src={props.image}/>
+    <div id='main-div' style={mainDivStyle} >
+      <div id='tile-div'>
+        <a href='#'><img id='tile-img' style={imageStyles} src={props.image}/></a>
+        <h1 id='tile-title' href='#'>{props.title}</h1>
+      </div>
     </div>
   )
 }
