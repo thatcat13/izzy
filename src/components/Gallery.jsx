@@ -1,14 +1,14 @@
 import React from 'react'
 import Tile from './Tile'
-import crow from './../assets/images/crowSkull3.jpg'
-import couch from './../assets/images/couch.png'
-import crane from './../assets/images/crane2.png'
-import duckie from './../assets/images/duckie2.png'
+import crow from './../assets/images/crowSkull4.jpg'
+import couch from './../assets/images/couch2.png'
+import crane from './../assets/images/crane3.png'
+import duckie from './../assets/images/duckie3.png'
 import fishies from './../assets/images/fishies.png'
 import goddess from './../assets/images/goddess.png'
 import green from './../assets/images/green.png'
-import loveIsLove from './../assets/images/loveIsLove.png'
-import tea from './../assets/images/tea.png'
+import loveIsLove from './../assets/images/loveIsLove2.png'
+import tea from './../assets/images/tea2.png'
 import './../assets/Gallery.css'
 
 // import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
@@ -84,8 +84,8 @@ export default function Gallery(){
     display: 'flex',
     justifyContent: 'space-around',
     flexWrap: 'wrap',
-    marginLeft: '10',
-    marginRight: '10'
+    // marginLeft: '10',
+    // marginRight: '10'
   }
 
 
