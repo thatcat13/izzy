@@ -39,13 +39,14 @@ import './../assets/Gallery.css'
 //   }
 // }
 
+//if using emotion: pass title position as a prop (ie if child 4-6, put title here)
 const artCollection = [
   {
     title: 'crane',
     image: crane
   },
   {
-    title: 'crow',
+    title: 'magpie',
     image: crow
   },
   {
@@ -82,10 +83,8 @@ export default function Gallery(){
 
   const mainDivStyle = {
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     flexWrap: 'wrap',
-    // marginLeft: '10',
-    // marginRight: '10'
   }
 
 

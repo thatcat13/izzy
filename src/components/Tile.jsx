@@ -6,17 +6,6 @@ import './../assets/Tile.css'
 // hover color: #b388a5
 export default function Tile(props){
 
-  // const mainDivStyle = {
-    // display: 'inline-block',
-    // flexGrow: '1',
-    // width: 'calc(100% * (1/3))',
-    // textAlign: 'center'
-  // }
-  // const imageStyles = {
-    // width: '99%',
-    // cursor: 'pointer'
-  // }
-
   return (
     <div id='main-div'>
       <div id='tile-div'>

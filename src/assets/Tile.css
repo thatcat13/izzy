@@ -1,14 +1,15 @@
 #main-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #tile-div {
   position: relative;
+  margin: 8px;
 }
-
-#tile-div:hover {
-  /* opacity: 0.7; */
+/* target a tag instead here: */
+#tile-div a:hover {
+  opacity: 0.3;
 }
 
 #tile-div:hover h1{
@@ -17,10 +18,30 @@
 
 #tile-title {
   position: absolute;
-  top: 1px;
-  right: 160px;
+  top: 5px;
+  left: 18px;
   z-index: 1;
   font-weight: bold;
   color: #2b233e;
   display: none;
 }
+
+/* #tile-div h1:nth-of-type(an+b) {
+  position: absolute;
+  bottom: 5px;
+  left: 18px;
+  z-index: 1;
+  font-weight: bold;
+  color: #2b233e;
+  display: none;
+} */
+
+/* #tile-div.h1:nth-of-type(n+7) {
+  position: absolute;
+  bottom: 5px;
+  left: 18px;
+  z-index: 1;
+  font-weight: bold;
+  color: #2b233e;
+  display: none;
+} */
