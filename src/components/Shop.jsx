@@ -12,7 +12,7 @@ export default function Shop () {
   return (
     <div>
       <Header />
-      <p style={pStyle}>Art pieces for sale coming soon!
+      <p style={pStyle}>Art for sale coming soon!
       </p>
     </div>
   )
