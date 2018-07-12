@@ -11,35 +11,6 @@ import loveIsLove from './../assets/images/loveIsLove2.png'
 import tea from './../assets/images/tea2.png'
 import './../assets/Gallery.css'
 
-// import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
-//
-// export class Example extends Component {
-//   openPopupbox() {
-//     const content = <img url="static/demo.jpg" />
-//     PopupboxManager.open({
-//       content,
-//       config: {
-//         titleBar: {
-//           enable: true,
-//           text: 'Meow!'
-//         },
-//         fadeIn: true,
-//         fadeInSpeed: 500
-//       }
-//     })
-//   }
-//
-//   render() {
-//     return (
-//       <div>
-//         <button onClick={this.openPopupbox}>Click me</button>
-//         <PopupboxContainer />
-//       </div>
-//     )
-//   }
-// }
-
-//if using emotion: pass title position as a prop (ie if child 4-6, put title here)
 const artCollection = [
   {
     title: 'crane',

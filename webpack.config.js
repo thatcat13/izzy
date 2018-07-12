@@ -1,7 +1,8 @@
-const webpack = require('webpack');
-const { resolve } = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack')
+const { resolve } = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const GoogleFontsPlugin = require("google-fonts-webpack-plugin")
+const path = require('path')
 
 module.exports = {
 
@@ -14,7 +15,7 @@ module.exports = {
 
   output: {
     filename: 'app.bundle.js',
-    path: resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'build'),
     publicPath: '/'
   },
 
@@ -92,5 +93,8 @@ module.exports = {
 
         ]
       })
-    ]
+    ],
+    devServer: {
+      historyApiFallback: true,
+    },
 };

@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './../assets/Tile.css'
 
-
-// hover color: #b388a5
 export default function Tile(props){
 
   return (

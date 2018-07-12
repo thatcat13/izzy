@@ -22,26 +22,6 @@
   left: 18px;
   z-index: 1;
   font-weight: bold;
-  color: #2b233e;
+  color: #551a8b;
   display: none;
 }
-
-/* #tile-div h1:nth-of-type(an+b) {
-  position: absolute;
-  bottom: 5px;
-  left: 18px;
-  z-index: 1;
-  font-weight: bold;
-  color: #2b233e;
-  display: none;
-} */
-
-/* #tile-div.h1:nth-of-type(n+7) {
-  position: absolute;
-  bottom: 5px;
-  left: 18px;
-  z-index: 1;
-  font-weight: bold;
-  color: #2b233e;
-  display: none;
-} */

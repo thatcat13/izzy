@@ -1,6 +1,7 @@
 import React from 'react'
-import izzy from './../assets/images/izzyBW.jpg'
+import izzy from './../assets/images/izzyPurple2.jpg'
 import './../assets/Header.css'
+import { Link } from 'react-router-dom';
 
 export default function Header(){
 
@@ -16,21 +17,31 @@ export default function Header(){
     marginTop: '10',
     textAlign: 'center'
   }
-  const linkStyle = {
+  const linkDivStyle = {
     display: 'flex',
     justifyContent: 'space-around',
     marginBottom: '20'
   }
+
+  const linkStyle = {
+    textDecoration: 'none',
+    fontSize: '2em',
+  }
+
+  const imgLinkStyle = {
+    cursor: 'pointer'
+  }
+
   return (
     <div style={mainDivStyle}>
       <div style={imgDivStyle}>
-        <img style={imgStyle} src={izzy} />
+        <a href='/' style={imgLinkStyle}><img style={imgStyle} src={izzy}/></a>
       </div>
-      <div style={linkStyle}>
-        <h2 id='test'>portfolio</h2>
-        <h2>shop</h2>
-        <h2>about</h2>
-        <h2>contact</h2>
+      <div style={linkDivStyle}>
+        <Link to="/" style={linkStyle}>Portfolio</Link>
+        <Link to="/shop" style={linkStyle}>Shop</Link>
+        <Link to="/about" style={linkStyle}>About</Link>
+        <Link to="/contact" style={linkStyle}>Contact</Link>
       </div>
     </div>
   )
