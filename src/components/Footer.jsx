@@ -14,15 +14,16 @@ export default function Footer(){
     justifyContent: 'space-around',
     color: '#3c2856',
     width: '13%',
-    fontSize: '3em'
+    fontSize: '2.75em'
   }
 
 
   return (
     <div style={mainDivStyle}>
       <div style={iconDivStyle}>
-        <FontAwesomeIcon icon='envelope' />
-        <FontAwesomeIcon icon={['fab', 'instagram']} />
+        <a style={{color:'#3c2856'}} href='mailto: jellybeanninja4035@gmail.com'><FontAwesomeIcon icon='envelope-square' /></a>
+        <a style={{color:'#3c2856'}} href='https://www.instagram.com/oregon.thistle/' target="_blank"
+          ><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
       </div>
     </div>
   )
